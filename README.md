@@ -28,6 +28,30 @@ With ConkyCam, you can seamlessly overlay Conky information onto your video stre
 - `FFmpeg` installed
 - `v4l2loopback` module installed
 
+#### Debian
+```bash
+# Install Conky
+sudo apt-get install conky
+
+# Install FFmpeg
+sudo apt-get install ffmpeg
+
+# Install v4l2loopback module
+sudo apt-get install v4l2loopback-dkms
+```
+
+#### Arch
+```bash
+# Install Conky
+sudo pacman -S conky
+
+# Install FFmpeg
+sudo pacman -S ffmpeg
+
+# Install v4l2loopback module
+sudo pacman -S v4l2loopback-dkms
+```
+
 ## Getting Started
 
 1. Clone this repository to your local machine or download the script.
