@@ -1,6 +1,4 @@
-# Conkycam
-
-- [ConkyCam: Virtual Webcam with Conky Overlay](#conkycam-virtual-webcam-with-conky-overlay)
+[ConkyCam: Virtual Webcam with Conky Overlay](#conkycam-virtual-webcam-with-conky-overlay)
   - [Features](#features)
   - [Dynamic Overlays and Virtual Devices](#dynamic-overlays-and-virtual-devices)
     - [Virtual Devices](#virtual-devices)
