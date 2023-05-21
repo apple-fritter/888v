@@ -76,7 +76,7 @@ Add the following content to the file:
 [Desktop Entry]
 Type=Application
 Name=888v
-Exec=/path/to/conkycam.sh
+Exec=/path/to/888v.sh
 Terminal=false
 ```
 
