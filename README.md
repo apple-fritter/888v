@@ -1,48 +1,44 @@
-# ConkyCam: Virtual Webcam with Conky Overlay
+# Table of Contents
 
-- [Features](#features)
-- [Dynamic Overlays and Virtual Devices](#dynamic-overlays-and-virtual-devices)
-  - [Virtual Devices](#virtual-devices)
-  - [Dynamic Overlays](#dynamic-overlays)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Limitations](#limitations)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [Flowchart](#flowchart)
-- [Security and Privacy Concerns](#security-and-privacy-concerns)
-- [Disclaimer](#disclaimer)
-- [License](#license)
+- [ConkyCam: Virtual Webcam with Conky Overlay](#conkycam-virtual-webcam-with-conky-overlay)
+  - [Features](#features)
+  - [Dynamic Overlays and Virtual Devices](#dynamic-overlays-and-virtual-devices)
+    - [Virtual Devices](#virtual-devices)
+    - [Dynamic Overlays](#dynamic-overlays)
+  - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
+  - [Usage](#usage)
+    - [Autostarting script](#autostarting-script)
+  - [Limitations](#limitations)
+  - [Troubleshooting](#troubleshooting)
+  - [Contributing](#contributing)
+  - [Flowchart](#flowchart)
+  - [Security and Privacy Concerns](#security-and-privacy-concerns)
+  - [Disclaimer](#disclaimer)
+  - [License](#license)
+
+## ConkyCam: Virtual Webcam with Conky Overlay
 
 ConkyCam is a simple script that allows you to create a virtual webcam with a Conky overlay. It enables you to share your custom setup with friends during video conferences or streaming, adding a personalized touch to your webcam feed.
 
-## Features
+### Features
 
 - Overlay Conky information on your webcam feed
 - Customizable Conky configuration to display system stats, weather, or any other desired information
 - Zero-latency streaming for a seamless experience
 - Compatible with popular streaming software and video conferencing platforms
 
-## Dynamic Overlays and Virtual Devices
+### Dynamic Overlays and Virtual Devices
 
 ConkyCam showcases the possibilities of adding dynamic overlay content on top of a video stream and the creation of virtual devices. By combining the capabilities of `Conky`, `FFmpeg`, and `v4l2loopback`, this script demonstrates the potential for enhancing video conferencing and streaming experiences with personalized information overlays.
 
-By combining dynamic overlay content and virtual device creation, ConkyCam showcases the power of integrating information overlays into video streams. It serves as a proof of concept for leveraging Conky, FFmpeg, and v4l2loopback to enhance video conferencing and streaming experiences with personalized and informative content. The flexibility and customization offered by ConkyCam pave the way for innovative applications and creative possibilities in the realm of live video streaming.
-
-### Virtual Devices
+#### Virtual Devices
 
 ConkyCam leverages the v4l2loopback module to create a virtual webcam device. This virtual device appears as a regular webcam to your video conferencing or streaming software, allowing you to seamlessly integrate the Conky overlay into your live video feed. By streaming the Conky window to the virtual device, ConkyCam ensures that your overlay content is visible to others in real-time.
 
-The creation of virtual devices opens up a world of possibilities for expanding the functionality of video streaming applications. It enables the integration of additional content, such as overlays, effects, or virtual backgrounds, without the need for dedicated hardware. ConkyCam demonstrates the potential for extending the capabilities of existing software and providing users with enhanced visual experiences.
-
-As you continue to explore ConkyCam and its capabilities, feel free to experiment, modify, and adapt this proof of concept to suit your unique requirements and creative vision. Enjoy the enhanced video streaming experience that ConkyCam brings, and let your imagination soar as you explore the potential of dynamic overlays and virtual device creation.
-
-### Dynamic Overlays
+#### Dynamic Overlays
 
 With ConkyCam, you can seamlessly overlay Conky information onto your video stream. This dynamic overlay allows you to display various system statistics, weather updates, or any other desired information in real-time. By customizing your Conky configuration, you can create a visually appealing and informative overlay that enhances your video content.
-
-The ability to add dynamic overlay content opens up exciting possibilities for personalization, branding, and sharing information during video conferences or streaming sessions. Whether you want to showcase your system performance, display important data, or simply add an artistic touch, ConkyCam provides a flexible solution to meet your needs.
 
 ## Prerequisites
 
@@ -65,9 +61,9 @@ The ability to add dynamic overlay content opens up exciting possibilities for p
 2. Select "ConkyCam" as your webcam source.
 3. Enjoy sharing your personalized setup with others!
 
-#### Autostarting script
+### Autostarting script
 
-Open a text editor and create a new file. You can name it conkycam.desktop.
+Open a text editor and create a new file. You can name it `conkycam.desktop`.
 
 Add the following content to the file:
 ```
@@ -77,6 +73,7 @@ Name=ConkyCam
 Exec=/path/to/conkycam.sh
 Terminal=false
 ```
+
 Replace `/path/to/conkycam.sh` with the actual path to your `conkycam.sh` script.
 
 Save the file and exit the text editor.
@@ -106,17 +103,16 @@ Contributions to improve ConkyCam are welcome! If you have any ideas, bug fixes,
 Start Script
 |
 ├─ [Capture Conky Window]
-|   └─ Get Conky Window ID
+| └─ Get Conky Window ID
 |
 ├─ [Create Virtual Webcam]
-|   ├─ Load v4l2loopback module
-|   │   └─ Set Virtual Webcam Name and Resolution
-|   │
-|   └─ Stream Conky Window to Virtual Webcam
+| ├─ Load v4l2loopback module
+| │ └─ Set Virtual Webcam Name and Resolution
+| │
+| └─ Stream Conky Window to Virtual Webcam
 |
 End Script
 ```
-
 
 ## Security and Privacy Concerns
 
@@ -133,7 +129,7 @@ End Script
 
 ## Disclaimer
 
-**This software is provided "as is" and without warranty of any kind**, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
+**This software is provided "as is" and without warranty of any kind**, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
 
 **The authors do not endorse or support any harmful or malicious activities** that may be carried out with the software. It is the user's responsibility to ensure that their use of the software complies with all applicable laws and regulations.
 
