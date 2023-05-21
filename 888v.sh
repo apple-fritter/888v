@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the desired virtual webcam device name
-device_name="ConkyCam"
+device_name="888v"
 
 # Get the Conky window ID using xwininfo
 conky_window_id=$(xwininfo -tree -root | grep "conky" | grep -oP "(0x[a-z0-9]+)")
