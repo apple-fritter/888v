@@ -1,4 +1,4 @@
-# Table of Contents
+# Conkycam
 
 - [ConkyCam: Virtual Webcam with Conky Overlay](#conkycam-virtual-webcam-with-conky-overlay)
   - [Features](#features)
