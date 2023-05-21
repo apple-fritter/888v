@@ -14,42 +14,19 @@ sh
 
 ## Flowchart
 ```
-┌─ Start Program
-│
-├─ [Step 1]
-│   ├─ [Step 1.1]
-│   │   ├─ [Step 1.1.1]
-│   │   │   ├─ [Step 1.1.1.1]
-│   │   │   │   └─ [Action]
-│   │   │   │
-│   │   │   ├─ [Step 1.1.1.2]
-│   │   │   └─ [Step 1.1.1.3]
-│   │   │
-│   │   ├─ [Step 1.1.2]
-│   │   └─ [Step 1.1.3]
-│   │
-│   ├─ [Step 1.2]
-│   │   ├─ [Step 1.2.1]
-│   │   ├─ [Step 1.2.2]
-│   │   │   ├─ [Step 1.2.2.1]
-│   │   │   └─ [Step 1.2.2.2]
-│   │   │       └─ [Action]
-│   │   │
-│   │   └─ [Step 1.2.3]
-│   │
-│   └─ [Step 1.3]
-│
-├─ [Step 2]
-│   ├─ [Step 2.1]
-│   │   ├─ [Step 2.1.1]
-│   │   └─ [Step 2.1.2]
-│   │       ├─ [Step 2.1.2.1]
-│   │       └─ [Step 2.1.2.2]
-│   │
-│   └─ [Step 2.2]
-│       └─ [Step 2.2.1]
-│
-└─ End Program
+Start Script
+|
+├─ [Capture Conky Window]
+|   └─ Get Conky Window ID
+|
+├─ [Create Virtual Webcam]
+|   ├─ Load v4l2loopback module
+|   │   └─ Set Virtual Webcam Name and Resolution
+|   │
+|   └─ Stream Conky Window to Virtual Webcam
+|
+End Script
+
 ```
 ## Considerations
 Some stuff here
