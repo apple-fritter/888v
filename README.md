@@ -1,40 +1,23 @@
-[ConkyCam: Virtual Webcam with Conky Overlay](#conkycam-virtual-webcam-with-conky-overlay)
-  - [Features](#features)
-  - [Dynamic Overlays and Virtual Devices](#dynamic-overlays-and-virtual-devices)
-    - [Virtual Devices](#virtual-devices)
-    - [Dynamic Overlays](#dynamic-overlays)
-  - [Prerequisites](#prerequisites)
-  - [Getting Started](#getting-started)
-  - [Usage](#usage)
-    - [Autostarting script](#autostarting-script)
-  - [Limitations](#limitations)
-  - [Troubleshooting](#troubleshooting)
-  - [Contributing](#contributing)
-  - [Flowchart](#flowchart)
-  - [Security and Privacy Concerns](#security-and-privacy-concerns)
-  - [Disclaimer](#disclaimer)
-  - [License](#license)
-
-## ConkyCam: Virtual Webcam with Conky Overlay
+# ConkyCam: Virtual Webcam with Conky Overlay
 
 ConkyCam is a simple script that allows you to create a virtual webcam with a Conky overlay. It enables you to share your custom setup with friends during video conferences or streaming, adding a personalized touch to your webcam feed.
 
-### Features
+## Features
 
 - Overlay Conky information on your webcam feed
 - Customizable Conky configuration to display system stats, weather, or any other desired information
 - Zero-latency streaming for a seamless experience
 - Compatible with popular streaming software and video conferencing platforms
 
-### Dynamic Overlays and Virtual Devices
+## Dynamic Overlays and Virtual Devices
 
 ConkyCam showcases the possibilities of adding dynamic overlay content on top of a video stream and the creation of virtual devices. By combining the capabilities of `Conky`, `FFmpeg`, and `v4l2loopback`, this script demonstrates the potential for enhancing video conferencing and streaming experiences with personalized information overlays.
 
-#### Virtual Devices
+### Virtual Devices
 
-ConkyCam leverages the v4l2loopback module to create a virtual webcam device. This virtual device appears as a regular webcam to your video conferencing or streaming software, allowing you to seamlessly integrate the Conky overlay into your live video feed. By streaming the Conky window to the virtual device, ConkyCam ensures that your overlay content is visible to others in real-time.
+ConkyCam leverages the `v4l2loopback` module to create a virtual webcam device. This virtual device appears as a regular webcam to your video conferencing or streaming software, allowing you to seamlessly integrate the Conky overlay into your live video feed. By streaming the Conky window to the virtual device, ConkyCam ensures that your overlay content is visible to others in real-time.
 
-#### Dynamic Overlays
+### Dynamic Overlays
 
 With ConkyCam, you can seamlessly overlay Conky information onto your video stream. This dynamic overlay allows you to display various system statistics, weather updates, or any other desired information in real-time. By customizing your Conky configuration, you can create a visually appealing and informative overlay that enhances your video content.
 
@@ -64,7 +47,8 @@ With ConkyCam, you can seamlessly overlay Conky information onto your video stre
 Open a text editor and create a new file. You can name it `conkycam.desktop`.
 
 Add the following content to the file:
-```
+
+```plaintext
 [Desktop Entry]
 Type=Application
 Name=ConkyCam
