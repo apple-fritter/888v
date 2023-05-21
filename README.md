@@ -65,6 +65,24 @@ The ability to add dynamic overlay content opens up exciting possibilities for p
 2. Select "ConkyCam" as your webcam source.
 3. Enjoy sharing your personalized setup with others!
 
+#### Autostarting script
+
+Open a text editor and create a new file. You can name it conkycam.desktop.
+
+Add the following content to the file:
+```
+[Desktop Entry]
+Type=Application
+Name=ConkyCam
+Exec=/path/to/conkycam.sh
+Terminal=false
+```
+Replace `/path/to/conkycam.sh` with the actual path to your `conkycam.sh` script.
+
+Save the file and exit the text editor.
+
+Move the `conkycam.desktop` file to the appropriate directory where your distro's autostart desktop entry files are stored.
+
 ## Limitations
 
 - The virtual webcam created by ConkyCam works only on Linux-based systems.
