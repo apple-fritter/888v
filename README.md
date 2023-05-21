@@ -103,13 +103,13 @@ Contributions to improve ConkyCam are welcome! If you have any ideas, bug fixes,
 Start Script
 |
 ├─ [Capture Conky Window]
-| └─ Get Conky Window ID
+|   └─ Get Conky Window ID
 |
 ├─ [Create Virtual Webcam]
-| ├─ Load v4l2loopback module
-| │ └─ Set Virtual Webcam Name and Resolution
-| │
-| └─ Stream Conky Window to Virtual Webcam
+|   ├─ Load v4l2loopback module
+|   │   └─ Set Virtual Webcam Name and Resolution
+|   │
+|   └─ Stream Conky Window to Virtual Webcam
 |
 End Script
 ```
