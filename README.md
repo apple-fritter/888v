@@ -1,4 +1,4 @@
-# ConkyCam: Virtual Webcam with Conky Overlay
+# ConkyCam
 
 ConkyCam is a simple script that allows you to create a virtual webcam with a Conky overlay. It enables you to share your custom setup with friends during video conferences or streaming, adding a personalized touch to your webcam feed.
 
