@@ -1,6 +1,6 @@
-# ConkyCam
+# 888v
 
-ConkyCam is a simple script that allows you to create a virtual webcam with a Conky overlay. It enables you to share your custom setup with friends during video conferences or streaming, adding a personalized touch to your webcam feed.
+888v is a simple script that allows you to create a virtual webcam with a Conky overlay. It enables you to share your custom setup with friends during video conferences or streaming, adding a personalized touch to your webcam feed.
 
 ## Features
 
@@ -11,15 +11,15 @@ ConkyCam is a simple script that allows you to create a virtual webcam with a Co
 
 ## Dynamic Overlays and Virtual Devices
 
-ConkyCam showcases the possibilities of adding dynamic overlay content on top of a video stream and the creation of virtual devices. By combining the capabilities of `Conky`, `FFmpeg`, and `v4l2loopback`, this script demonstrates the potential for enhancing video conferencing and streaming experiences with personalized information overlays.
+888v showcases the possibilities of adding dynamic overlay content on top of a video stream and the creation of virtual devices. By combining the capabilities of `Conky`, `FFmpeg`, and `v4l2loopback`, this script demonstrates the potential for enhancing video conferencing and streaming experiences with personalized information overlays.
 
 ### Virtual Devices
 
-ConkyCam leverages the `v4l2loopback` module to create a virtual webcam device. This virtual device appears as a regular webcam to your video conferencing or streaming software, allowing you to seamlessly integrate the Conky overlay into your live video feed. By streaming the Conky window to the virtual device, ConkyCam ensures that your overlay content is visible to others in real-time.
+888v leverages the `v4l2loopback` module to create a virtual webcam device. This virtual device appears as a regular webcam to your video conferencing or streaming software, allowing you to seamlessly integrate the Conky overlay into your live video feed. By streaming the Conky window to the virtual device, ConkyCam ensures that your overlay content is visible to others in real-time.
 
 ### Dynamic Overlays
 
-With ConkyCam, you can seamlessly overlay Conky information onto your video stream. This dynamic overlay allows you to display various system statistics, weather updates, or any other desired information in real-time. By customizing your Conky configuration, you can create a visually appealing and informative overlay that enhances your video content.
+With 888v, you can seamlessly overlay Conky information onto your video stream. This dynamic overlay allows you to display various system statistics, weather updates, or any other desired information in real-time. By customizing your Conky configuration, you can create a visually appealing and informative overlay that enhances your video content.
 
 ## Prerequisites
 
@@ -57,34 +57,34 @@ sudo pacman -S v4l2loopback-dkms
 1. Clone this repository to your local machine or download the script.
 2. Ensure that Conky is already running and displaying the desired information.
 3. Modify the script if necessary, updating the path to your Conky configuration file (`.conkyrc`).
-4. Make the script executable: `chmod +x conkycam.sh`.
-5. Run the script: `./conkycam.sh`.
+4. Make the script executable: `chmod +x 888v.sh`.
+5. Run the script: `./888v.sh`.
 
 ## Usage
 
 1. Launch your preferred video conferencing or streaming software.
-2. Select "ConkyCam" as your webcam source.
+2. Select "888v" as your webcam source.
 3. Enjoy sharing your personalized setup with others!
 
 ### Autostarting script
 
-Open a text editor and create a new file. You can name it `conkycam.desktop`.
+Open a text editor and create a new file. You can name it `888v.desktop`.
 
 Add the following content to the file:
 
 ```plaintext
 [Desktop Entry]
 Type=Application
-Name=ConkyCam
+Name=888v
 Exec=/path/to/conkycam.sh
 Terminal=false
 ```
 
-Replace `/path/to/conkycam.sh` with the actual path to your `conkycam.sh` script.
+Replace `/path/to/888v.sh` with the actual path to your `888v.sh` script.
 
 Save the file and exit the text editor.
 
-Move the `conkycam.desktop` file to the appropriate directory where your distro's autostart desktop entry files are stored.
+Move the `888v.desktop` file to the appropriate directory where your distro's autostart desktop entry files are stored.
 
 ## Limitations
 
@@ -123,13 +123,13 @@ End Script
 ## Security and Privacy Concerns
 
 - Personal Information: Be cautious when sharing your screen or webcam feed, as it may unintentionally reveal personal information or sensitive content. Ensure that you review and configure the Conky overlay and any other displayed information to avoid sharing private data.
-- Video Conference Privacy: When using ConkyCam for video conferences, be mindful of the participants' privacy. Make sure that you have consent from all participants before sharing your screen or webcam feed. Respect privacy settings and avoid capturing or transmitting any private or confidential information without proper authorization.
-- Secure Streaming: If you plan to use ConkyCam for streaming platforms, ensure that you stream over secure connections (e.g., HTTPS) and use appropriate encryption protocols to protect your data in transit.
+- Video Conference Privacy: When using 888v for video conferences, be mindful of the participants' privacy. Make sure that you have consent from all participants before sharing your screen or webcam feed. Respect privacy settings and avoid capturing or transmitting any private or confidential information without proper authorization.
+- Secure Streaming: If you plan to use 888v for streaming platforms, ensure that you stream over secure connections (e.g., HTTPS) and use appropriate encryption protocols to protect your data in transit.
 - Third-Party Software: Verify the security and privacy practices of any third-party software or libraries used in this project, such as Conky, FFmpeg, or v4l2loopback. Stay updated with security patches and new releases to mitigate potential vulnerabilities.
-- Permissions and Access: When running ConkyCam or loading kernel modules, ensure that you have the necessary permissions and access rights. Be cautious when modifying system configurations or loading/unloading kernel modules, as it can impact the stability and security of your system.
-- Secure Code Practices: If you plan to modify or extend the ConkyCam script, follow secure coding practices. Avoid hardcoding sensitive information, implement input validation, and sanitize user-supplied data to prevent vulnerabilities such as code injection or command execution.
-- Update and Maintenance: Regularly update the script, dependencies, and underlying system components to address security vulnerabilities and maintain the security of your setup. Stay informed about security advisories related to the software used in ConkyCam.
-- User Awareness: Educate yourself and other users about potential security and privacy risks associated with using ConkyCam. Encourage users to follow best practices, such as using strong passwords, keeping software up to date, and being cautious about sharing personal or sensitive information during video conferences or streaming sessions.
+- Permissions and Access: When running 888v or loading kernel modules, ensure that you have the necessary permissions and access rights. Be cautious when modifying system configurations or loading/unloading kernel modules, as it can impact the stability and security of your system.
+- Secure Code Practices: If you plan to modify or extend the 888v script, follow secure coding practices. Avoid hardcoding sensitive information, implement input validation, and sanitize user-supplied data to prevent vulnerabilities such as code injection or command execution.
+- Update and Maintenance: Regularly update the script, dependencies, and underlying system components to address security vulnerabilities and maintain the security of your setup. Stay informed about security advisories related to the software used in 888v.
+- User Awareness: Educate yourself and other users about potential security and privacy risks associated with using 888v. Encourage users to follow best practices, such as using strong passwords, keeping software up to date, and being cautious about sharing personal or sensitive information during video conferences or streaming sessions.
 
 > Please note that this is a general list of security and privacy concerns and may need to be tailored to the specific aspects of your project. Consider consulting security professionals and relevant documentation to ensure comprehensive coverage of security and privacy considerations.
 
