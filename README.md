@@ -15,7 +15,7 @@
 
 ### Virtual Devices
 
-888v leverages the `v4l2loopback` module to create a virtual webcam device. This virtual device appears as a regular webcam to your video conferencing or streaming software, allowing you to seamlessly integrate the Conky overlay into your live video feed. By streaming the Conky window to the virtual device, ConkyCam ensures that your overlay content is visible to others in real-time.
+888v leverages the `v4l2loopback` module to create a virtual webcam device. This virtual device appears as a regular webcam to your video conferencing or streaming software, allowing you to seamlessly integrate the Conky overlay into your live video feed. By streaming the Conky window to the virtual device, 888v ensures that your overlay content is visible to others in real-time.
 
 ### Dynamic Overlays
 
@@ -88,13 +88,13 @@ Move the `888v.desktop` file to the appropriate directory where your distro's au
 
 ## Limitations
 
-- The virtual webcam created by ConkyCam works only on Linux-based systems.
+- The virtual webcam created by 888v works only on Linux-based systems.
 - Compatibility with specific video conferencing or streaming software may vary. It is recommended to test with your preferred software.
 - Ensure that you have the necessary permissions to load and unload kernel modules.
 
 ## Troubleshooting
 
-If you encounter any issues or errors while running ConkyCam, try the following steps:
+If you encounter any issues or errors while running 888v, try the following steps:
 
 1. Ensure that all prerequisites are met, including Conky, FFmpeg, and v4l2loopback module installation.
 2. Check if there are any error messages in the terminal while running the script.
@@ -102,7 +102,7 @@ If you encounter any issues or errors while running ConkyCam, try the following 
 
 ## Contributing
 
-Contributions to improve ConkyCam are welcome! If you have any ideas, bug fixes, or feature suggestions, feel free to open an issue or submit a pull request.
+Contributions to improve 888v are welcome! If you have any ideas, bug fixes, or feature suggestions, feel free to open an issue or submit a pull request.
 
 ## Flowchart
 ```
