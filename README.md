@@ -2,6 +2,8 @@
 
 888v is a simple script that allows you to create a virtual webcam with a Conky overlay. It enables you to share your custom setup with friends during video conferences or streaming, adding a personalized touch to your webcam feed.
 
+---
+
 ## 🤖 Features
 
 - Overlay Conky information on your webcam feed
@@ -11,9 +13,13 @@
 
 888v showcases the possibilities of adding dynamic overlay content on top of a video stream and the creation of virtual devices. By combining the capabilities of `Conky`, `FFmpeg`, and `v4l2loopback`, this script demonstrates the potential for enhancing video conferencing and streaming experiences with personalized information overlays.
 
+---
+
 ### 📹 Virtual Devices
 
 888v leverages the `v4l2loopback` module to create a virtual webcam device. This virtual device appears as a regular webcam to your video conferencing or streaming software, allowing you to seamlessly integrate the Conky overlay into your live video feed. By streaming the Conky window to the virtual device, 888v ensures that your overlay content is visible to others in real-time.
+
+---
 
 ### 💬 Dynamic Overlays
 
@@ -157,6 +163,8 @@ End Script
 - [RTSP-view.py](https://github.com/apple-fritter/conky.RTSP-view.py): Script that displays an RTSP stream. Python.
 - [tide.py](https://github.com/apple-fritter/conky.tide.py): Script that displays the local tide using the Tidal API. Python.
 - [twitter.py](https://github.com/apple-fritter/conky.twitter.py): Script that displays a user's Twitter notifications. Python.
+
+---
 
 ## 📜 Disclaimer
 
