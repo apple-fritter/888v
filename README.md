@@ -24,7 +24,7 @@ With 888v, you can seamlessly overlay Conky information onto your video stream. 
 ## 👨‍💻 Prerequisites 👩‍💻
 
 - Ubuntu or compatible Linux distribution
-- `Conky` with a [.conkyrc file](https://github.com/apple-fritter/.conkyrc/blob/main/.conkyrc) containing your desired layout
+- `Conky` with a [.conkyrc](https://github.com/apple-fritter/.conkyrc/) file, containing your desired layout
 - `FFmpeg`
 - `v4l2loopback`
 
