@@ -24,9 +24,9 @@ With 888v, you can seamlessly overlay Conky information onto your video stream. 
 ## 👨‍💻 Prerequisites 👩‍💻
 
 - Ubuntu or compatible Linux distribution
-- `Conky` installed and configured with your desired layout
-- `FFmpeg` installed
-- `v4l2loopback` module installed
+- `Conky` with a [.conkyrc file](https://github.com/apple-fritter/.conkyrc/blob/main/.conkyrc) containing your desired layout
+- `FFmpeg`
+- `v4l2loopback`
 
 #### Debian
 ```bash
@@ -148,6 +148,15 @@ End Script
 > Please note that this is a general list of security and privacy concerns and may need to be tailored to the specific aspects of your project. Consider consulting security professionals and relevant documentation to ensure comprehensive coverage of security and privacy considerations.
 
 ---
+
+## 🤪 Conky Meta
+
+- [888v](https://github.com/apple-fritter/888v): - Virtual webcam clone with Conky overlay; Bash.
+- [.conkyrc](https://github.com/apple-fritter/.conkyrc): conky configuration file.
+- [moonphase.py](https://github.com/apple-fritter/conky.moonphase.py): RSS reader for Conky that reads in a TSV based list of feeds. Python.
+- [RTSP-view.py](https://github.com/apple-fritter/conky.RTSP-view.py): Script that displays an RTSP stream. Python.
+- [tide.py](https://github.com/apple-fritter/conky.tide.py): Script that displays the local tide using the Tidal API. Python.
+- [twitter.py](https://github.com/apple-fritter/conky.twitter.py): Script that displays a user's Twitter notifications. Python.
 
 ## 📜 Disclaimer
 
